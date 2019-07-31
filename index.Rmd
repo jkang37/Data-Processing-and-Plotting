@@ -1,5 +1,5 @@
 ---
-title: "MyLabJournal"
+title: "Data Processing and Plotting"
 output: html_document
 ---
 
