@@ -13,6 +13,6 @@ output: html_document
 
 **Link:** [Bar Plots For Market Share Change](https://jkang37.github.io/Data-Processing-and-Plotting/Blogs/blog1.html)
 
-**View:**
+**Preview:**
 ![](images/blog1.jpeg)
 
