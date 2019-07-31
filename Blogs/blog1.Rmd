@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo=TRUE,fig.width=6,fig.height=4)
 ## Firstly, loading package and data
 
 **Loading Package...**
-```{r,message=FALSE}
+```{r,message=FALSE,warning=FALSE}
 library(dppbar)
 ```
 
@@ -51,4 +51,9 @@ bar_plot(dataframe=macro_data_chn,ctg.idx='year',num.idx=c(9:12),
          paper_bgcolor='#ccece6',margin=list(t=36,l=24))
 ```
 
+
+
 **TO:** [Blogs](https://jkang37.github.io/Data-Processing-and-Plotting/Blogs.html)
+
+
+
