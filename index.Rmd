@@ -19,25 +19,25 @@ output: html_document
 
 # **Data Processing and Plotting**
 
-This is a template example for lab journaling. Students in Matt Crump's Human Cognition and Performance Lab will use this template to learn R, and other things. Students can replace this text with more fun things. People not in my lab can use this too.
+This is the webpage for my project Data Processing and Plotting in R. It currently has a R package named "dppbar" which stand for "Data Processing and Plotting for Business Analysis in R". This webpage will be contain vignettes and updates for that package, as well as blogs about using it in real life data analysis projects.
 
-## How to use
+## What You can find here?
 
-1. fork the repo for this website and follow instructions on read me to get set up. [https://github.com/CrumpLab/LabJournalWebsite](https://github.com/CrumpLab/LabJournalWebsite)
+1. Discreption about this R package and the major features and functions about it. See the  [Overview page](https://jkang37.github.io/Data-Processing-and-Plotting/Overview.html).
 
-2. Blog/journal what you are doing in R, by editing the Journal.Rmd. See the [Journal page](https://crumplab.github.io/LabJournalWebsite/Journal.html) for an example of what to do to get started learning R.
+2. Vignettes for the package, which include user's guide and some examples in using it to do data analysis projects. See the [Vignettes page](https://jkang37.github.io/Data-Processing-and-Plotting/Vignettes.html) 
 
-3. See the [links page](https://crumplab.github.io/LabJournalWebsite/Links.html) for lots of helpful links on learning R.
+3. See the [Blogs page](https://jkang37.github.io/Data-Processing-and-Plotting/Blogs.html) for blogs about using this package to simplify data processing and plotting works, and also update to the package.
 
-4. Change everything to make it your own.
+3. See the [Links page](https://jkang37.github.io/Data-Processing-and-Plotting/Links.html) for lots of helpful links on learning R.
 
 
 </div>
 <div class="col-sm-6">
 
-### [Crump Lab: Human Cognition and Performance](https://crumplab.github.io)
+### [Author's Personal Website](https://github.com/jkang37)
 
-<a href = "https://crumplab.github.io">
-![](images/logo.png)
+<a href = "https://github.com/jkang37">
+![](images/logo.jpeg)
 </a>
 </div>

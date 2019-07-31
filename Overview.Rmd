@@ -1,0 +1,61 @@
+---
+title: " Data Processing and Plotting for Business Analysis in R"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+```
+
+
+
+
+## Description:
+
+I strat this project because manipulating data and making plots in R can sometimes be annoying. One may just don't get what they want exactly even though they have tried many times. The Internet is a great place to looking for help, like Google and [Stackoverflow](https://stackoverflow.com), but you still may get more of a general guidence rather than the exact solution. Furthermore, if you don't record the problem and solution in an appropriate way, you may face the exact struggle somewhere in the future. It's obviously very inefficient. Therefore, I wrote this package and plans to keep updating it by adding functions about processing and plotting data in R. I will also keep writing and updating blogs about using this package to solve real data analysis problems. Now this package assembles functions from commonly used R package in explanatory data analysis to build a toolbox that can be easily implemented even for beginners in this field. It has a designed emphasis on business analysis, so it is especially useful in cross-sectional data or panel data analysis. The package tries to balance between simplicity and flexibility. Most functions can be easily implemented while offering further control parameters
+to customerize result.
+
+## Category of functions:
+
+The functions in this package is mainly distributed into the following three categories:
+
+1. **Data Processing Functions:** transfer between numerical and categorical data, impute missing values, and get special summary information.
+
+2. **Data Visualization Functions:** commonly used plots used to show patterns of data
+
+3. **Data Analysis Functions:** functions about basic data analysis
+
+## List of functions and their features:
+
+The following table summarizes the available functions in the package and their features. It will be updated with the package.
+
+Function's Name                | Function's Feature
+-------------------------------|--------------------------------------
+**Data Processing Functions**  |
+column_class()                 | Separate features by categorical or numerical
+num2ctg()                      | Numerical variable to categorical variabel
+ord_ctg2num()                  | Ordinal categorical variable to numerical variable
+nom_ctg2num()                  | Nominal categorical variable to numerical variable by dummy
+impute_missing()               | impute missing value by mice
+**Data Visualization Functions**| 
+bar_plot()                    | Stacked bar plot for multiple categories
+bubble_plot()                 | Bubble plot with color and size showing more information
+corr_check()                  | Pairs plot to check correlation between variables
+distribution_plot()           | Three plotting types to show distribution
+donut_plot()                  | Donut plot to show percentage
+double_axis()                 | Combine bar plot and line plot with double axis
+facet_bar()                   | Separate bar plots in small facet for multiple categories
+horizontal_bar()              | Horizontal bar plot showing percentage
+label_bar_plot()              | Bar plot with a small label
+lines_plot()                  | Basic lines plot with options
+lines_split_plot()            | Using subplot to show series with different range
+line_ann_plot()               | Line plot with information on turning points
+polar_cahrts()                | Drawing radar plot
+rank_plot()                   | Rank change plot of categories over index
+**Data Analysis Functions**   | 
+cal_pct()                     | Calculate percentage of each category
+get_rank()                    | Get rank of each category
+lin_predict()                 | Linear extrapolation with trend DLM
+plm_basic()                   | Stepwise model selection for plm
+
+

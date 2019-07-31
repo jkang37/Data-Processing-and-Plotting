@@ -1,0 +1,53 @@
+---
+title: "Bar Plots For Market Share Change"
+author: "Jizhou Kang"
+date: "7/31/2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE,fig.width=6,fig.height=4)
+```
+
+## Firstly, loading package and data
+
+**Loading Package...**
+```{r,message=FALSE}
+library(dppbar)
+```
+
+**Loading Dataset...**
+
+To fully illustrate the usage of package to accomplish this task, we use two datasets of different structure. They are "Chinese Real Estate Industry Companies' Financial Charts(2007-2016)" and "Some Macroeconomic Data of China(2008-2016)". Head lines of each dataset is shown below.
+
+**Chinese Real Estate Industry Companies' Financial Charts(2007-2016)**
+```{r,echo=FALSE}
+data("estate_fin_charts")
+head(estate_fin_charts[,1:5],5)
+```
+
+**Some Macroeconomic Data of China(2008-2016)**
+```{r,echo=FALSE}
+data("macro_data_chn")
+head(macro_data_chn[,1:5],5)
+```
+
+
+## Secondly, done the plot within five lines of R code:
+
+```{r}
+bar_plot(dataframe=estate_fin_charts,ctg.idx = 'Year',num.idx = 'income',
+         condition.idx = '证券简称',criteria=2016,top_N=10,
+         colors=brewer.pal(12,'Set3'),xaxis_name='年份',yaxis_name='营业收入（亿元）',
+         title='2016年营业收入前12名房地产企业历年营收变化',
+         paper_bgcolor='#ccece6',margin=list(t=36,l=24))
+```
+
+```{r}
+bar_plot(dataframe=macro_data_chn,ctg.idx='year',num.idx=c(9:12),
+         criteria = 2016,colors = brewer.pal(4,'Set1'),
+         xaxis_name = '年份',yaxis_name = '商品价格（元/吨）',
+         title='一些大宗商品的历年价格变化',
+         paper_bgcolor='#ccece6',margin=list(t=36,l=24))
+```
+

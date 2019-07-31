@@ -1,0 +1,16 @@
+---
+title: " Vignettes for dppbar packages"
+output: html_document
+---
+
+
+
+
+
+## 1. Vignette "dppbar": Examples in a suggested workflow
+
+**Description:** This vignette is designed to show all the examples in the package with a specially designed order to illustrate each function in this package.
+
+**Link:** [Vignette "dppbar": Examples in a suggested workflow](https://jkang37.github.io/Data-Processing-and-Plotting/Vignettes/vignette1.html)
+
+
